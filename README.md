@@ -66,6 +66,12 @@ hotel-management-system/
 │   └── vite.config.ts
 ├── setup.sql                       # Database schema + sample data
 ├── docker-compose.yml              # MySQL Docker setup (optional)
+├── screenshots/                    # Application screenshots
+│   ├── dashboard.png
+│   ├── rooms.png
+│   ├── bookings.png
+│   ├── backend-terminal.png
+│   └── mysql-workbench.png
 └── README.md
 ```
 
@@ -197,6 +203,35 @@ Open your browser at **http://localhost:5173** 🎉
 - **Dark Theme UI** — Modern Material UI dark theme with responsive sidebar navigation
 - **Data Grid** — Sortable, paginated tables powered by MUI X Data Grid
 - **Charts** — Visual analytics using Recharts
+
+---
+
+## 📸 Screenshots
+
+### Dashboard
+> Overview with stats cards, booking trends chart, and room status distribution.
+
+![Dashboard](screenshots/dashboard.png)
+
+### Room Management
+> Add, edit, and delete rooms with real-time status tracking via MUI Data Grid.
+
+![Rooms](screenshots/rooms.png)
+
+### Booking Management
+> Create and manage guest bookings with status chips and pagination.
+
+![Bookings](screenshots/bookings.png)
+
+### Backend — Spring Boot
+> Spring Boot application startup showing Tomcat, Hibernate, and HikariCP initialization.
+
+![Backend Terminal](screenshots/backend-terminal.png)
+
+### MySQL Workbench
+> Database schema with `rooms` and `bookings` tables and sample query results.
+
+![MySQL Workbench](screenshots/mysql-workbench.png)
 
 ---
 
